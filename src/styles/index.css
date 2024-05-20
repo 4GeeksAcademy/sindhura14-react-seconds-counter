@@ -1,12 +1,26 @@
+  .timer {
+    background: black;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 4rem;
+    width: 30rem;
+    display: flex;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .digits {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    color: #f5f5f5;
+    box-shadow: 0px 5px 5px 0 rgba(209, 208, 208, 0.723),
+      0px 5px 5px 0 rgba(238, 232, 232, 0.19);
+  }
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+  .fa-regular {
+    font-size: 2rem;
+    color: #f5f5f5;
+  }
+  
